@@ -8,6 +8,13 @@
 #include "config_common.h"
 #include "../../config.h"
 
+#define LEADER_TIMEOUT 500
+#define TAPPING_TERM 200
+
+//define space cadet shift to send open and closed parenthesis
+#define LSPO_KEY KC_8
+#define RSPC_KEY KC_9
+
 /*MOUSE CONFIG OPTIONS */
 
 //#define MOUSEKEY_INTERVAL       20
