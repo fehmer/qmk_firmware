@@ -1,0 +1,35 @@
+[
+//qwertz
+[{c:"#aeabb3",a:7},"Esc",{c:"#cccccc"},"Q","W","E","R","T","Z","U","I","O","P",{c:"#aeabb3"},"BS"],
+["FN",{c:"#cccccc"},"A","S","D","F","G","H","J","K","L","+",{c:"#aeabb3"},"#"],
+["Shift",{c:"#cccccc"},"Y","X","C","V","B","N","M",",",".","-",{c:"#aeabb3"},"Return"],
+["Ctrl","Tab","Gui","Alt",{c:"#487c99"},"&dArr;",{c:"#cccccc",w:2},"",{c:"#ad640e"},"&uArr;",{c:"#aeabb3"},"AlGr","Gui","FN","Ctrl"]
+,
+
+//lower
+[{c:"#aeabb3",a:7},"^",{c:"#cccccc"},"F7","F8","F9","F12","","","","7","8","9",{c:"#aeabb3"},"?"],
+["",{c:"#cccccc"},"F4","F5","F6","F11","","","","4","5","6",{c:"#aeabb3"},""],
+["",{c:"#cccccc"},"F1","F2","F3","F10","","","","1","2","3",{c:"#aeabb3"},""],
+["","","","",{c:"#487c99"},"",{c:"#cccccc",w:2},"",{c:"#ad640e"},"",{c:"#aeabb3"},"0",",",".",""],
+
+//raise
+
+[{c:"#aeabb3",a:7},"°",{c:"#cccccc"},"!","\"","§","$","%","&","/","(",")","=",{c:"#aeabb3"},"\\"],
+["",{c:"#cccccc"},"","","","","","","","{","}","",{c:"#aeabb3"},"´"],
+["",{c:"#cccccc"},"|","","","","","","","[","]","",{c:"#aeabb3"},""],
+["","","","",{c:"#487c99"},"",{c:"#cccccc",w:2},"",{c:"#ad640e"},"",{c:"#aeabb3"},"<",">","",""],
+
+//FN
+[{c:"#aeabb3",a:7},"",{c:"#cccccc"},"CRTL-1","","","","","","ü","<i class='fa fa-arrow-up'></i>","ö","ß",{c:"#aeabb3"},"Del"],
+["",{c:"#cccccc"},"ä","","","","","PgUp","<i class='fa fa-arrow-left'></i>","<i class='fa fa-arrow-down'></i>","<i class='fa fa-arrow-right'></i>","",{c:"#aeabb3"},"Ins"],
+["",{c:"#cccccc"},"","","","","","PgDn","Home","End","","",{c:"#aeabb3"},""],
+["","","","",{c:"#487c99"},"",{c:"#cccccc",w:2},"",{c:"#ad640e"},"",{c:"#aeabb3"},"<i class='fa fa-forward'></i>","<i class='fa fa-volume-down'></i>","<i class='fa fa-volume-up'></i>","<i class='fa fa-play'></i>"],
+
+
+//adjust
+[{c:"#aeabb3",a:7},"",{c:"#cccccc"},"Reset","Debug","","","","","","","","",{c:"#aeabb3"},""],
+["",{c:"#cccccc"},"","","Audio On","Audio Off","AG Norm","AG Swap","QWE RTY","","","",{c:"#aeabb3"},""],
+["",{c:"#cccccc"},"Voice .","Voice +","Mus On","Mus Off","MIDI On","MIDI Off","","","","",{c:"#aeabb3"},""],
+["","","","",{c:"#487c99"},"",{c:"#cccccc",w:2},"",{c:"#ad640e"},"",{c:"#aeabb3"},"","","",""]
+
+]
