@@ -21,5 +21,6 @@ TAP_DANCE_ENABLE=yes        # Enable tap dance (+900)
 COMBO_ENABLE = no
 ifndef QUANTUM_DIR
 	include ../../../../Makefile
+endif
 
 

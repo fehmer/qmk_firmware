@@ -16,45 +16,17 @@
 // Used for SHIFT_ESC
 #define MODS_CTRL_MASK  (MOD_BIT(KC_LSHIFT)|MOD_BIT(KC_RSHIFT))
 
-// Each layer gets a name for readability, which is then used in the keymap matrix below.
-// The underscores don't mean anything - you can have a layer called STUFF or any other name.
-// Layer names don't all need to be of the same length, obviously, and you can also skip them
-// entirely and just use numbers.
-#define BASE 0  // Default layer
-#define FN   1  // Function layer
+//one shot modifier shortcuts
+#define OSM_LALT OSM(MOD_LALT)
+#define OSM_RALT OSM(MOD_RALT)
+#define OSM_LCTL OSM(MOD_LCTL)
+#define OSM_RCTL OSM(MOD_RCTL)
+#define OSM_LAS OSM(MOD_LALT|MOD_LSFT)
+#define OSM_LGUI OSM(MOD_LGUI)
+#define OSM_RGUI OSM(MOD_RGUI)
 
-// Special Actions and Media Keys
-#define MUTE KC_MUTE  // Mute sound
-#define VOLU KC_VOLU  // Volume increase
-#define VOLD KC_VOLD  // Volume decrease
-#define M_UP KS_MS_UP // Mouse UP
-
-#define INSE KC_INS   // Insert here
-#define HOME KC_HOME  // Go to beginning of line
-#define ENDI KC_END   // go to end of line
-#define PSCR KC_PSCR  // Print Screen
-#define SLCK KC_SLCK  // go to end of line
-#define PGDN KC_PGDN  // go to end of line
-#define PGUP KC_PGUP  // go to end of line
-#define PLPS KC_MPLY  // Play/Pause
-#define PAUS KC_PAUS  // Pause button
-#define MNXT KC_MNXT  // next track
-#define MPRV KC_MPRV  // prev track
-#define MSTP KC_MSTP  // stop playing
-#define MSEL KC_MSEL  // Select media (Start playing it)
-#define MAIL KC_MAIL  // Open default mail app
-#define CALC KC_CALC  // Open default calculator app
-#define MYCM KC_MYCM  // Open default file manager
-
-#define _______ KC_TRNS
-#define XXXXX    KC_NO
-
-
+// tapdance names
 typedef enum {
   TD_ESC_CAPS = 0,
+  TD_TAB_ESC = 1,
 } TAPDANCE;
-
-
-enum function_id {
-    SHIFT_ESC,
-};
