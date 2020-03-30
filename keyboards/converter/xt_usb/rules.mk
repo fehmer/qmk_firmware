@@ -1,5 +1,6 @@
 # MCU name
-MCU = atmega32u4
+#MCU = atmega32u4
+MCU = at90usb1286
 
 # Bootloader selection
 #   Teensy       halfkay
