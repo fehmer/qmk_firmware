@@ -24,6 +24,9 @@
 #define OSM_LAS OSM(MOD_LALT|MOD_LSFT)
 #define OSM_LGUI OSM(MOD_LGUI)
 #define OSM_RGUI OSM(MOD_RGUI)
+#define FNL OSL(_FN)
+#define LOWER OSL(_LOWER)
+#define RAISE OSL(_RAISE)
 */
 #define OSM_LALT KC_LALT
 #define OSM_RALT KC_RALT
@@ -32,6 +35,9 @@
 #define OSM_LAS KC_LALT|KC_LSFT
 #define OSM_LGUI KC_LGUI
 #define OSM_RGUI KC_RGUI
+#define FNL MO(_FN)
+#define LOWER MO(_LOWER)
+#define RAISE MO(_RAISE)
 // tapdance names
 typedef enum {
   TD_ESC_CAPS = 0,

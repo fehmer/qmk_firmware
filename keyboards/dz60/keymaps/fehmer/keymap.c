@@ -9,11 +9,6 @@ enum dz60_layers {
   _FN,
 };
 
-
-
-#define FNL OSL(_FN)
-
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  /* Keymap BASE: (Base Layer) Default Layer
    * ,-----------------------------------------------------------.
@@ -47,7 +42,7 @@ TD(TD_ESC_CAPS), KC_1,     KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,   
    * |-----------------------------------------------------------|
    * |    |   |   |   |   |   |   |   |PGD|HOM|END|   |          |
    * |-----------------------------------------------------------|
-   * |    |    |    |                        |    |    |RESET|   |
+   * |    |    |    |                        |    |RESET|    |   |
    * `-----------------------------------------------------------'
    */
   [_FN] = LAYOUT_60_iso(
@@ -55,6 +50,6 @@ TD(TD_ESC_CAPS), KC_1,     KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,   
     _______,  KC_BTN1, KC_MS_U, KC_BTN2, KC_WH_U, _______, KC_MUTE, KC_VOLD, KC_VOLU, KC_UP,   KC_PSCR,  KC_SLCK, KC_PAUS,
     _______,  KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D, _______, _______, KC_PGUP, KC_LEFT, KC_DOWN, KC_RIGHT, KC_APP,  KC_INS , _______,
     _______,  _______, RGB_TOG, RGB_MOD, RGB_VAI, RGB_VAD, RGB_M_X , _______, KC_PGDN, KC_HOME, KC_END,   _______, _______,
-    _______,  _______, _______,                   _______,                                     _______,  _______, RESET  , _______
+    _______,  _______, _______,                   _______,                                     _______,  RESET, _______,  _______
   ),
 };
