@@ -31,11 +31,6 @@ enum planck_keycodes {
   QWERTY = SAFE_RANGE
 };
 
-#define LOWER OSL(_LOWER)
-#define RAISE OSL(_RAISE)
-#define FNL OSL(_FN)
-
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Qwerty
@@ -45,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * | Tab  |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   +  |  #   |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * | Shift|   Y  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   -  |Enter |
- * |------+------0+------+------+------+------+------+------+------+------+------+------|
+ * |------+------+------+------+------+------+------+------+------+------+------+------|
  * | Ctrl|ShftAlt| Gui  | Alt  |Lower |    Space    |Raise |AltGr | Gui  |  Fn  | Ctrl |
  * `-----------------------------------------------------------------------------------'
  */
@@ -99,14 +94,14 @@ LT(_FN, KC_TAB), KC_A,    KC_S,     KC_D,     KC_F,    KC_G,    KC_H,    KC_J,  
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * |      |      |      |      |      |      | PgDn |      | Home | End  |   ß  |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      | Print|Scroll|Pause |      |             |      | Next | Vol- | Vol+ | Play |
+ * |      | Print|Scroll|Pause |      |             |      | Play | Vol- |      | Vol+ |
  * `-----------------------------------------------------------------------------------'
  */
 [_FN] = LAYOUT_planck_grid(
     _______, _______, _______, _______, _______, _______, _______, _______, KC_UP,   _______ ,  KC_LBRC, KC_DEL,
     _______, C(KC_1), _______, _______, _______, _______, KC_PGUP, KC_LEFT, KC_DOWN, KC_RIGHT,  KC_SCLN, KC_QUOT,
     _______, _______, _______, _______, _______, _______, KC_PGDN, _______ ,KC_HOME, KC_END,    KC_MINS, _______,
-    _______, KC_PSCR, KC_SLCK, KC_PAUS, _______, _______, _______, _______, KC_MNXT, KC_VOLD ,  KC_VOLU, KC_MPLY
+    _______, KC_PSCR, KC_SLCK, KC_PAUS, _______, _______, _______, _______, KC_MPLY, KC_VOLD ,  _______, KC_VOLU
 ),
 
 /* Adjust (Lower + Raise)
