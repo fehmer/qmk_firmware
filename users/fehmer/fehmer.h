@@ -32,7 +32,7 @@
 #define OSM_RALT KC_RALT
 #define OSM_LCTL KC_LCTL
 #define OSM_RCTL KC_RCTL
-#define OSM_LAS KC_LALT|KC_LSFT
+#define OSM_LAS MT(KC_LALT|KC_LSFT,KC_TRNS)
 #define OSM_LGUI KC_LGUI
 #define OSM_RGUI KC_RGUI
 #define FNL MO(_FN)
