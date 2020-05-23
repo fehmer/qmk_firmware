@@ -1,0 +1,36 @@
+[
+//qwertz
+[{x:0.5,a:7},"Esc\n\n\n\nCpsLck","Q","W","E","R","T","Z","U","I","O","P","BS",{x:1.25,c:"#aeabb3",w:1.5},"F8"],
+[{x:0.5,c:"#cccccc"},"Tab\n\n\n\nFn","A","S","D","F","G","H","J","K","L","+","#",{x:1.25,c:"#aeabb3",w:1.5},"F5"],
+[{c:"#cccccc",w:1.5},"Shift","Y","X","C","V","B","N","M",",",".","-",{w:1.5},"Shift\n\n\n\nEnter",{x:0.75,c:"#aeabb3",w:1.5},"F6"],
+[{c:"#cccccc",w:1.5},"Ctrl","Alt Shift","Gui","Alt",{c:"#487c99"},"&dArr;",{c:"#cccccc",w:2},"",{c:"#ad640e"},"&uArr;",{c:"#cccccc"},"AlGr","Gui","Fn",{w:1.5},"Ctrl",{x:0.75,c:"#aeabb3",w:1.5},"F7"]
+,
+
+//lower
+[{x:0.5,a:7},"^","F7","F8","F9","F12","","","7","8","9","=","",{x:1.25,c:"#aeabb3",w:1.5},""],
+[{x:0.5,c:"#cccccc"},"","F4","F5","F6","F11","","","4","5","6","","Ins",{x:1.25,c:"#aeabb3",w:1.5},""],
+[{c:"#cccccc",w:1.5},"","F1","F2","F3","F10","","","1","2","3","",{w:1.5},"",{x:0.75,c:"#aeabb3",w:1.5},""],
+[{c:"#cccccc",w:1.5},"","","","",{c:"#487c99"},"",{c:"#cccccc",w:2},"",{c:"#ad640e"},"0",{c:"#cccccc"},",",".","",{w:1.5},"",{x:0.75,c:"#aeabb3",w:1.5},""]
+
+,
+
+//raise
+[{x:0.5,a:7},"°","!","\"","§","$","%","&","/","(",")","?","",{x:1.25,c:"#aeabb3",w:1.5},""],
+[{x:0.5,c:"#cccccc"},"","","","","","","","","{","}","´","\\",{x:1.25,c:"#aeabb3",w:1.5},""],
+[{c:"#cccccc",w:1.5},"","|","","","","","","","[","]","",{w:1.5},"",{x:0.75,c:"#aeabb3",w:1.5},""],
+[{c:"#cccccc",w:1.5},"","","","",{c:"#487c99"},"",{c:"#cccccc",w:2},"",{c:"#ad640e"},"",{c:"#cccccc"},"<",">","",{w:1.5},"",{x:0.75,c:"#aeabb3",w:1.5},""]
+
+//FN
+[{x:0.5,a:7},"","","","","","","","","<i class='fa fa-arrow-up'></i>","","ü","Del",{x:1.25,c:"#aeabb3",w:1.5},""],
+[{x:0.5,c:"#cccccc"},"","CTRL-1","","","","","PgUp","<i class='fa fa-arrow-left'></i>","<i class='fa fa-arrow-down'></i>","<i class='fa fa-arrow-right'></i>","ö","ä",{x:1.25,c:"#aeabb3",w:1.5},""],
+[{c:"#cccccc",w:1.5},"","","","","","","PgDn","","Home","End","ß",{w:1.5},"",{x:0.75,c:"#aeabb3",w:1.5},""],
+[{c:"#cccccc",w:1.5},"","Print","Scroll","Pause",{c:"#487c99"},"",{c:"#cccccc",w:2},"",{c:"#ad640e"},"",{c:"#cccccc"},"<i class='fa fa-forward'></i>","<i class='fa fa-volume-down'></i>","<i class='fa fa-volume-up'></i>",{w:1.5},"<i class='fa fa-play'></i>",{x:0.75,c:"#aeabb3",w:1.5},""]
+
+
+//adjust
+[{x:0.5,a:7},"","Reset","Debug","","","","","","","","","",{x:1.25,c:"#aeabb3",w:1.5},""],
+[{x:0.5,c:"#cccccc"},"","","","Audio On","Audio Off","AG Norm","AG Swap","QWE RTY","","","","",{x:1.25,c:"#aeabb3",w:1.5},""],
+[{c:"#cccccc",w:1.5},"","Voice .","Voice +","Mus On","Mus Off","MIDI On","MIDI Off","","","","",{w:1.5},"",{x:0.75,c:"#aeabb3",w:1.5},""],
+[{c:"#cccccc",w:1.5},"","","","",{c:"#487c99"},"",{c:"#cccccc",w:2},"",{c:"#ad640e"},"",{c:"#cccccc"},"","","",{w:1.5},"",{x:0.75,c:"#aeabb3",w:1.5},""]
+
+]
