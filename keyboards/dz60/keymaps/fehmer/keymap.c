@@ -38,7 +38,7 @@ TD(TD_ESC_CAPS), KC_1,     KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,   
    * |-----------------------------------------------------------|
    * |     |MB1|MSU|MB2|MWU|   |MUT|V-D|V-U| UP|PSC| SC|BRK|     |
    * |-----------------------------------------------------------|
-   * |      |MSL|MSD|MSR|MWD|   |   |PGU|LFT|DWN|RGT|APP|INS|    |
+   * |      |CT1|MSD|MSR|MWD|   |   |PGU|LFT|DWN|RGT|APP|INS|    |
    * |-----------------------------------------------------------|
    * |    |   |   |   |   |   |   |   |PGD|HOM|END|   |          |
    * |-----------------------------------------------------------|
@@ -48,7 +48,7 @@ TD(TD_ESC_CAPS), KC_1,     KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,   
   [_FN] = LAYOUT_60_iso(
     KC_GRAVE, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_F11,  KC_F12,  KC_DEL,
     _______,  KC_BTN1, KC_MS_U, KC_BTN2, KC_WH_U, _______, KC_MUTE, KC_VOLD, KC_VOLU, KC_UP,   KC_PSCR,  KC_SLCK, KC_PAUS,
-    _______,  KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D, _______, _______, KC_PGUP, KC_LEFT, KC_DOWN, KC_RIGHT, KC_APP,  KC_INS , _______,
+    _______,  C(KC_1), KC_MS_D, KC_MS_R, KC_WH_D, _______, _______, KC_PGUP, KC_LEFT, KC_DOWN, KC_RIGHT, KC_APP,  KC_INS , _______,
     _______,  _______, RGB_TOG, RGB_MOD, RGB_VAI, RGB_VAD, RGB_M_X , _______, KC_PGDN, KC_HOME, KC_END,   _______, _______,
     _______,  _______, _______,                   _______,                                     _______,  RESET, _______,  _______
   ),
