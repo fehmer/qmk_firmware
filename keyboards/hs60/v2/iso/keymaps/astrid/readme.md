@@ -18,7 +18,7 @@ make hs60/v2/iso:astrid:dfu-util
 
 ### Alt-Gr Layer
 
-![Layer AltGr](docs/altgr-layer.png)
+![Layer AltGr](docs/altg-layer.png)
 
 ### Adjust ( FN + Alt-Gr)
 
