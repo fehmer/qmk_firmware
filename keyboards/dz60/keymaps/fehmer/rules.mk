@@ -20,3 +20,4 @@ LEADER_ENABLE = no          # Enable leader key (+200)
 TAP_DANCE_ENABLE=yes        # Enable tap dance (+900)
 COMBO_ENABLE = no
 RGBLIGHT_ENABLE = yes
+VIA_ENABLE = yes
